@@ -34,8 +34,10 @@ export default {
   },
   watch: {
     todos: {
-      immediate: true, //初始化时让handler调用一下
-      deep: true, //深度监视
+      // 初始化时让handler调用一下
+      immediate: true,
+      // 深度监视
+      deep: true,
       handler(value) {
         localStorage.setItem('todos', JSON.stringify(value));
       },
