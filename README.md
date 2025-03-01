@@ -1,2 +1,1 @@
-# xm_01
-todolist组件之间通信vue2普通版本
+# 这是 TodoList 基础版本项目
